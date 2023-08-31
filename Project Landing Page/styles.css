@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border-radius: 30px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+.head-links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 50px 0px 0px;
+}
+
+.head-links a {
+    color: #E5E7Eb;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto, arial;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.head-links a:hover {
+    border-bottom: 1px solid;
+}
+
+#topcont {
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ^^^ NAV BAR ^^^ */
+
+#jump {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding-right: 15px;
+}
+
+.middle {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 10px;
+    gap: 50px;
+}
+
+.info {
+    color: #E5E7Eb;
+    font-size: 18px;
+    display: flex;
+}
+
+.awesome {
+    max-width: 750px;
+}
+
+.awesome h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Roboto, arial;
+    margin: 0;
+}
+
+.info {
+    font-family: Roboto, arial;
+}
+
+.topbut {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    color: #E5E7Eb;
+    padding: 5px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.topbut:hover {
+    background-color: #219ebc;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.facts img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+
+.fact1 p {
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto, arial;
+}
+
+.fact2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fact2 p {
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto, arial;
+}
+
+.fact3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fact3 p {
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto, arial;
+}
+
+.fact4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.fact4 p {
+    max-width: 150px;
+    max-height: 150px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto, arial;
+}
+
+/* ^^^ INFO SECTION ^^^ */
+
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.quote footer {
+    font-size: 20px;
+    color: #1F2937;
+    padding-left: 900px;
+    opacity: 0.8;
+}
+
+/* ^^^ QUOTE SECTION ^^^ */
+
+.signupbottom {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 80px;
+    border-radius: 10px;
+    color: #E5E7Eb;
+}
+
+.h3p {
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.signupbottom h3 {
+    margin-bottom: 0;
+}
+
+.signupbottom p {
+    margin-top: 0;
+}
+
+.bottombut {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    color: #E5E7Eb;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.bottombut:hover {
+    background-color: #219ebc;
+}
+
+/* ^^^ 'Call to action' SECTION ^^^ */
+
+.bottom {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    font-family: Roboto, arial;
+    font-size: 10px;
+    padding: 20px;
+    justify-content: center;
+}

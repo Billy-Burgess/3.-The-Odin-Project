@@ -1,0 +1,2 @@
+# odin-recipes
+This is my first task to complete on The Odin Project website for learning web developement. Before this I have completed the HTML & CSS tasks on FreeCodeCamp and completed up to and including HTMl & CSS parts on UDEMY "The web developer bootcamp 2023".
