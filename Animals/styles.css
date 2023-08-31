@@ -1,0 +1,268 @@
+/* NAV BAR */
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #219ebc;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+#scenery {
+    display: flex;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.animals {
+    display: flex;
+    align-items: center;
+    font-family: Roboto, arial;
+    font-size: 18px;
+    margin-left: 450px;
+
+}
+
+.icons {
+    display: flex;
+
+}
+
+.lion {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#lionicon {
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 5px;
+}
+
+.bear {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#bearicon {
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 5px;
+}
+
+.shark {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#sharkicon {
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 10px;
+}
+
+.koala {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#koalaicon {
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 10px;
+}
+
+/* .icons {
+    display: flex;
+    margin-top: 50px;
+    margin-left: -190px;
+} */
+
+.home {
+    padding-right: 10px;
+}
+
+.about {
+    padding-right: 10px;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 0px;
+    background-color: #fefae0;
+}
+
+.outdoors {
+    text-align: center;
+}
+
+.quote footer {
+    padding-left: 1000px;
+}
+
+/* FACTS */
+
+.factspart {
+    background-color: #264653;
+}
+
+.factspart h1 {
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 5px;
+}
+
+#Lion {
+    display: flex;
+    color: #F9FAF8;
+    font-family: Roboto, arial;
+    align-items: center;
+}
+
+.lionfacts {
+    padding-left: 25px;
+    padding-right: 35px;
+}
+
+.lionimg {
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.lionheading {
+    color: #F9FAF8;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+
+#Bear {
+    display: flex;
+    color: #F9FAF8;
+    font-family: Roboto, arial;
+    align-items: center;
+}
+
+.bearfacts {
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.bearimg {
+    width: 200px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.bearheading {
+    color: #F9FAF8;
+    margin-left: 300px;
+    margin-bottom: auto;
+}
+
+#Shark {
+    display: flex;
+    color: #F9FAF8;
+    font-family: Roboto, arial;
+    align-items: center;
+}
+
+.sharkfacts {
+    padding-left: 25px;
+}
+
+.sharkimg {
+    width: 150px;
+    height: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.sharkheading {
+    color: #F9FAF8;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+
+#koala {
+    display: flex;
+    color: #F9FAF8;
+    font-family: Roboto, arial;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.koalafacts {
+    padding-left: 25px;
+    padding-right: 40px;
+}
+
+.koalaimg {
+    width: 200px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.koalaheading {
+    color: #F9FAF8;
+    margin-left: 300px;
+    margin-bottom: auto;
+}
+
+/* FOOTER */
+
+.bottom {
+    display: flex;
+    background-color: #a3b18a;
+    max-height: 1000px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.bottom a {
+    text-decoration: none;
+}
