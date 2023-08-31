@@ -6,6 +6,7 @@ function game() {
     for (let i = 1; i <= 4; i++) {
         playRound(i);
     }
+    document.querySelector("button").textContent = "Play new game";
     logWins();
 }
 
@@ -72,5 +73,3 @@ function logRound(playerChoice, computerChoice, winner, round) {
     console.log(winner, "won the round")
     console.log("--------------------------------------------")
 }
-
-game();
